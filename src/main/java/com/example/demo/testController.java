@@ -63,6 +63,11 @@ public class testController {
         return "test6";
     }
 
+    @GetMapping("/test/master8")
+    public String myChange8(){
+        return "test8";
+    }
+
     @GetMapping("/test/master7")
     public String myChange7(){
         return "test7";
