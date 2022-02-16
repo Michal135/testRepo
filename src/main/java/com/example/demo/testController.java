@@ -53,6 +53,10 @@ public class testController {
     public String myChange5(){
         return "test5";
     }
+    @GetMapping("/testt/nextText")
+    public String nextText6(){
+        return "test6";
+    }
 
     @GetMapping("/test/master6")
     public String myChange6(){
