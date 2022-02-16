@@ -44,4 +44,9 @@ public class testController {
     public String myChange3(){
         return "test3";
     }
+
+    @GetMapping("/test/masterNext4")
+    public String myChange4(){
+        return "test4";
+    }
 }
