@@ -25,4 +25,11 @@ public class testController {
     public String testBranch2() {
         return "branch2";
     }
+
+    @GetMapping("/test/masterChange")
+    public String myChange(){
+        return "test";
+    }
+
+
 }
