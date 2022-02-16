@@ -32,80 +32,71 @@ public class testController {
     }
 
     @GetMapping("/test/masterChange")
-    public String myChange(){
+    public String myChange() {
         return "test";
     }
+
     @GetMapping("/test/masterNext")
-    public String myChange2(){
+    public String myChange2() {
         return "test2";
     }
 
     @GetMapping("/test/masterNext3")
-    public String myChange3(){
+    public String myChange3() {
         return "test3";
     }
 
     @GetMapping("/test/masterNext4")
-    public String myChange4(){
+    public String myChange4() {
         return "test4";
     }
+
     @GetMapping("/test/master5")
-    public String myChange5(){
+    public String myChange5() {
         return "test5";
     }
+
     @GetMapping("/testt/nextText")
-    public String nextText6(){
+    public String nextText6() {
         return "test6";
     }
 
     @GetMapping("/test/master6")
-    public String myChange6(){
+    public String myChange6() {
         return "test6";
     }
 
     @GetMapping("/test/master8")
-    public String myChange8(){
+    public String myChange8() {
         return "test8";
     }
 
     @GetMapping("/test/master7")
-    public String myChange7(){
+    public String myChange7() {
         return "test7";
     }
 
-    @GetMapping("/test/commTest1")
-    public String commTest1(){
+    @GetMapping("/test/commTest2")
+    public String commTest1() {
         return "commTest1";
     }
-    @GetMapping("/test/commTest2")
-    public String commTest2(){
+    @GetMapping("/test/commTest3")
+    public String commTest2() {
         return "commTest2";
     }
 
-    @GetMapping("/test/commTest3")
-    public String commTest3(){
+    @GetMapping("/test/commTest4")
+    public String commTest3() {
         return "commTest3";
     }
 
-    @GetMapping("/test/master9")
-    public String myChange9(){
-        return "test9";
-    }
-
-    @GetMapping("/test/master10")
-    public String myChange10(){
+    @GetMapping("/test/master11")
+    public String myChange10() {
         return "test10";
     }
-    @GetMapping("/test/master101")
-    public String myChange100(){
-        return "test101";
-    }
-
-
-
 
     @GetMapping("/test/master11")
-    public String myChange11(){
+    public String myChange12() {
         return "test11";
     }
 }
