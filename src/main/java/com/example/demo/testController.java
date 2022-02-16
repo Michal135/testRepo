@@ -30,6 +30,9 @@ public class testController {
     public String myChange(){
         return "test";
     }
-
+    @GetMapping("/test/masterNext")
+    public String myChange2(){
+        return "test2";
+    }
 
 }
