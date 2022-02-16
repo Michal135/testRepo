@@ -11,5 +11,10 @@ public class testController {
     return "test";
 }
 
+    @GetMapping("/test/branch2")
+    public String testBranch2(){
+        return "test";
+    }
+
 
 }
