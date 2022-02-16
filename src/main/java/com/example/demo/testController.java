@@ -77,7 +77,10 @@ public class testController {
     public String commTest1(){
         return "commTest1";
     }
-
+    @GetMapping("/test/commTest2")
+    public String commTest2(){
+        return "commTest2";
+    }
 
     @GetMapping("/test/master9")
     public String myChange9(){
