@@ -73,4 +73,8 @@ public class testController {
         return "test7";
     }
 
+    @GetMapping("/test/master9")
+    public String myChange9(){
+        return "test9";
+    }
 }
