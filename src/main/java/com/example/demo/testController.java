@@ -82,4 +82,13 @@ public class testController {
     public String myChange10(){
         return "test10";
     }
+
+
+
+
+
+    @GetMapping("/test/master11")
+    public String myChange11(){
+        return "test11";
+    }
 }
