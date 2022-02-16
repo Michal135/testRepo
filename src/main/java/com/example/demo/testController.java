@@ -16,5 +16,10 @@ public class testController {
         return "test";
     }
 
+    @GetMapping("/test/developchange")
+    public String developchange(){
+        return "test";
+    }
+
 
 }
