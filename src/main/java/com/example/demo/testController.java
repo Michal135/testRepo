@@ -82,6 +82,11 @@ public class testController {
         return "commTest2";
     }
 
+    @GetMapping("/test/commTest3")
+    public String commTest3(){
+        return "commTest3";
+    }
+
     @GetMapping("/test/master9")
     public String myChange9(){
         return "test9";
