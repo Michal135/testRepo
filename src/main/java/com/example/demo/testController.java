@@ -100,6 +100,16 @@ public class testController {
         return "test11";
     }
 
+    @GetMapping("/test/master110")
+    public String myChange120() {
+        return "test110";
+    }
+
+    @GetMapping("/test/master111")
+    public String myChange101() {
+        return "test101";
+    }
+
     @GetMapping("/test/master102")
     public String myChange102(){
         return "test102";
