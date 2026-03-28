@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class testController {
+public class TestController {
 
     @GetMapping("/test")
     public String test() {
@@ -95,10 +95,10 @@ public class testController {
         return "test10";
     }
 
-    @GetMapping("/test/master11")
-    public String myChange12() {
-        return "test11";
-    }
+//    @GetMapping("/test/master11")
+//    public String myChange12() {
+//        return "test11";
+//    }
 
     @GetMapping("/test/master110")
     public String myChange120() {
